@@ -208,7 +208,9 @@
 								<span class="component-desc">
 									<select id="theme_name" name="theme_name" class="form-control input-sm">
 										<option value="dark" #if $sickbeard.THEME_NAME == 'dark' then 'selected="selected"' else ''#>Dark</option>
+										<option value="darkFlat" #if $sickbeard.THEME_NAME == 'darkFlat' then 'selected="selected"' else ''#>DarkFlat</option>
 										<option value="light" #if $sickbeard.THEME_NAME == 'light' then 'selected="selected"' else ''#>Light</option>
+										<option value="lightFlat" #if $sickbeard.THEME_NAME == 'lightFlat' then 'selected="selected"' else ''#>LightFlat</option>
 									</select>
 									<span class="red-text">for appearance to take effect, save then refresh your browser</span>
 								</span>
